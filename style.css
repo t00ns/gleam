@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Karrik";
+    src: url("Karrik-Regular.woff2"),
+         url("Karrik-Regular.woff");
+}
+
+body {
+    background-color: #F7F4F2;
+    font-family: "Karrik";
+    font-size: 18px;
+    line-height: 1.2;
+    color: #363245;
+}
+
+a {
+    text-decoration: none;
+    color: #363245;
+}
+
+a:hover {
+    color: #FF8062;
+    transition: 0.2s;
+}
+
+nav {
+    background-color: #C3E0EF;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 80px;
+    z-index: 2;
+}
+
+nav .nav {
+    font-size: 24px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h4 img {
+    width: 108px;
+    padding-top: 10px;
+    margin-left: 24px;
+}
+
+nav h4:hover {
+    transition: 0.25s;
+    transform: rotate(-5deg);
+}
+
+nav a {
+    padding: 10px 0;
+}
+
+.shopping {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+nav h5 img {
+    width: 40px;
+    padding: 0 48px;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 1.25;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 1.15;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+button {
+    border: none;
+    outline: none;
+    font-family: "Karrik";
+    font-size: 24px;
+    color: #F7F4F2;
+    background-color: #FF8062;
+    padding: 16px 40px;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 3px solid #363245;
+    background: #C3E0EF;
+    color: #363245;
+    transition: 0.2s;
+}
+
+
+
+.hero {
+    background-image: url("gleam_02.jpg");
+    background-size: cover;
+    background-position: center top;
+    padding: 232px 300px;
+
+}
+
+.hero div {
+    text-align: center;
+}
+
+
+
+.email {
+    background-color: #FECC75;
+    padding: 95px 8px 132px 50px;
+    display: flex;
+}
+
+.email .blurb {
+    display: block;
+    width: 50%;
+}
+
+.email .blurb h3 {
+    width: 525px;
+}
+
+.email .subscribe {
+    display: block;
+    width: 50%;
+    padding: 24px 0 10px 0;
+}
+
+input[id="email"] {
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 5px solid #FF8062;
+    width: 570px;
+    margin: 36px 0;
+
+    font-family: "Karrik";
+    font-size: 48px;
+    color: #F7F4F2;
+}
+
+.contact {
+    margin: 200px auto;
+    padding: 75px auto;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C3E0EF;
+    padding: 16px 32px;
+}
+
+footer img {
+    padding: 0 16px;
+}
+
+
+
+
+/* Product Page styling */
+
